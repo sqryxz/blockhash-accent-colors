@@ -1,0 +1,25 @@
+{
+  "site": {
+    "name": "BlockHash Accent Colors",
+    "description": "Derive accent colors from blockchain ledger hash",
+    "theme": "dark"
+  },
+  "blockchain": {
+    "network": "bitcoin",
+    "rpcUrl": "https://blockstream.info/api",
+    "latestBlockEndpoint": "/blocks"
+  },
+  "colorDerivation": {
+    "algorithm": "sha256",
+    "paletteSize": 6,
+    "saturationRange": [0.6, 0.9],
+    "lightnessRange": [0.4, 0.7]
+  },
+  "output": {
+    "publicDir": "public",
+    "indexFile": "index.html",
+    "cssFile": "style.css",
+    "jsFile": "app.js"
+  },
+  "updateInterval": 3600000
+}

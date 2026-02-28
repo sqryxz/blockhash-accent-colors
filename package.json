@@ -1,0 +1,15 @@
+{
+  "name": "blockhash-accent-colors",
+  "version": "1.0.0",
+  "description": "Derive accent colors from blockchain ledger hash",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node src/test_pipeline.js",
+    "cron": "node src/cron_runner.js"
+  },
+  "keywords": ["blockchain", "colors", "bitcoin"],
+  "author": "",
+  "license": "MIT"
+}

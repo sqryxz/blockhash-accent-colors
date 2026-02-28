@@ -1,0 +1,28 @@
+/* BlockHash Accent Colors - Generated 2026-02-28T04:00:01.896Z */
+/* Source Hash: 0000000000000000000152e88e690b5f199eb448e60459bda7c1b15a4f817af0 */
+:root {
+  --primary-color: hsl(329, 71%, 66%);
+  --primary-hex: #e66baa;
+  --primary-hsl: 329, 71%, 66%;
+  --accent-color: hsl(149, 71%, 66%);
+  --accent-hex: #6be6a6;
+  --accent-hsl: 149, 71%, 66%;
+  --color-1: hsl(329, 71%, 66%);
+  --color-1-hex: #e66baa;
+  --color-1-hsl: 329, 71%, 66%;
+  --color-2: hsl(269, 74%, 58%);
+  --color-2-hex: #9145e3;
+  --color-2-hsl: 269, 74%, 58%;
+  --color-3: hsl(140, 70%, 52%);
+  --color-3-hex: #2fda68;
+  --color-3-hsl: 140, 70%, 52%;
+  --color-4: hsl(301, 71%, 66%);
+  --color-4-hex: #e66be4;
+  --color-4-hsl: 301, 71%, 66%;
+  --color-5: hsl(155, 77%, 70%);
+  --color-5-hex: #78edbc;
+  --color-5-hsl: 155, 77%, 70%;
+  --color-6: hsl(170, 86%, 40%);
+  --color-6-hex: #0ebea0;
+  --color-6-hsl: 170, 86%, 40%;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlockHash Accent Colors</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Generate beautiful accent colors derived from Bitcoin blockchain block hashes. Each refresh pulls the latest block and creates a unique color palette.">
+  <meta name="keywords" content="blockchain, bitcoin, colors, accent colors, color palette, block hash, generative art">
+  <meta name="author" content="BlockHash">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://blockhash.example.com/">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://blockhash.example.com/">
+  <meta property="og:title" content="BlockHash Accent Colors">
+  <meta property="og:description" content="Generate beautiful accent colors derived from Bitcoin blockchain block hashes. Each refresh creates a unique color palette.">
+  <meta property="og:image" content="https://blockhash.example.com/og-image.png">
+  <meta property="og:site_name" content="BlockHash Accent Colors">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://blockhash.example.com/">
+  <meta name="twitter:title" content="BlockHash Accent Colors">
+  <meta name="twitter:description" content="Generate beautiful accent colors derived from Bitcoin blockchain block hashes. Each refresh creates a unique color palette.">
+  <meta name="twitter:image" content="https://blockhash.example.com/og-image.png">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <h1>BlockHash Accent Colors</h1>
+    <p class="tagline">Deriving accent colors from blockchain ledger hash</p>
+  </header>
+
+  <main id="main-content">
+    <section id="current-block">
+      <h2>Current Block</h2>
+      <div id="block-hash" class="hash-display">Loading...</div>
+      <div id="block-info"></div>
+    </section>
+
+    <section id="accent-colors">
+      <h2>Accent Colors</h2>
+      <div id="colors-grid" class="colors-grid">
+        <div class="color-swatch">
+          <div class="color-box" id="primary-color" role="img" aria-label="Primary color"></div>
+          <div class="color-info">
+            <span class="color-label">Primary</span>
+            <span class="color-hex" id="primary-hex"></span>
+          </div>
+        </div>
+        <div class="color-swatch">
+          <div class="color-box" id="secondary-color" role="img" aria-label="Secondary color"></div>
+          <div class="color-info">
+            <span class="color-label">Secondary</span>
+            <span class="color-hex" id="secondary-hex"></span>
+          </div>
+        </div>
+        <div class="color-swatch">
+          <div class="color-box" id="tertiary-color" role="img" aria-label="Tertiary color"></div>
+          <div class="color-info">
+            <span class="color-label">Tertiary</span>
+            <span class="color-hex" id="tertiary-hex"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="palette-display">
+      <h2>Color Palette</h2>
+      <div id="palette" class="palette-grid"></div>
+    </section>
+
+    <section id="accent-section">
+      <h2>Accent</h2>
+      <div class="color-swatch">
+        <div class="color-box" id="accent-color" role="img" aria-label="Accent color"></div>
+        <div class="color-info">
+          <span class="color-label">Accent</span>
+          <span class="color-hex" id="accent-hex"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="metadata">
+      <h2>Block Metadata</h2>
+      <div class="metadata-grid">
+        <div class="metadata-item">
+          <span class="meta-label">Height</span>
+          <span class="meta-value" id="block-height">-</span>
+        </div>
+        <div class="metadata-item">
+          <span class="meta-label">Transactions</span>
+          <span class="meta-value" id="tx-count">-</span>
+        </div>
+        <div class="metadata-item">
+          <span class="meta-label">Last Updated</span>
+          <span class="meta-value" id="last-updated">-</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="controls">
+      <button id="run-pipeline">Run Pipeline</button>
+      <button id="refresh-btn">Refresh Colors</button>
+      <div id="status-message" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Generated from blockchain ledger hash</p>
+  </footer>
+
+  <script src="main.js" type="module"></script>
+</body>
+</html>
